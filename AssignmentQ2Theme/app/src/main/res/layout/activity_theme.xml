@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Light Mode Button -->
+    <Button
+        android:id="@+id/btnLight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/button_dark"
+        android:text="Light Mode"
+        android:textColorHighlight="@color/white"
+        android:textColor="@color/light_text" />
+
+    <!-- Dark Mode Button -->
+    <Button
+        android:id="@+id/btnDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/button_light"
+        android:text="Dark Mode"
+        android:textColorHighlight="@color/white"
+        android:textColor="@color/dark_text" />
+</LinearLayout>
