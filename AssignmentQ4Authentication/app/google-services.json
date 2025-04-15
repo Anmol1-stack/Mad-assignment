@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "381545805297",
+    "project_id": "assignmentq4authentication",
+    "storage_bucket": "assignmentq4authentication.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:381545805297:android:1f5e20ba85f1b84b8b8050",
+        "android_client_info": {
+          "package_name": "com.example.assignmentq4authentication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "381545805297-aceqs7ifhqvp0jsl7uir1md8h0v5aunn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.assignmentq4authentication",
+            "certificate_hash": "aeb1eb3918870e6878a41f4cbd733c6d4976c642"
+          }
+        },
+        {
+          "client_id": "381545805297-qkcvesg3nb8slnr3m63gfmv2rjh1jpdl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5wwYc-zB5557PZxh3sTY_dfXdz8GzPFw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "381545805297-qkcvesg3nb8slnr3m63gfmv2rjh1jpdl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
