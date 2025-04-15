@@ -1,0 +1,190 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.assignmentq5"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="35" />
+10
+11    <!-- Permissions -->
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->/Users/anmolchaturvedi/AndroidStudioProjects/AssignmentQ5/app/src/main/AndroidManifest.xml:6:5-65
+12-->/Users/anmolchaturvedi/AndroidStudioProjects/AssignmentQ5/app/src/main/AndroidManifest.xml:6:22-62
+13
+14    <uses-feature
+14-->/Users/anmolchaturvedi/AndroidStudioProjects/AssignmentQ5/app/src/main/AndroidManifest.xml:7:5-85
+15        android:name="android.hardware.camera"
+15-->/Users/anmolchaturvedi/AndroidStudioProjects/AssignmentQ5/app/src/main/AndroidManifest.xml:7:19-57
+16        android:required="false" />
+16-->/Users/anmolchaturvedi/AndroidStudioProjects/AssignmentQ5/app/src/main/AndroidManifest.xml:7:58-82
+17
+18    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+18-->/Users/anmolchaturvedi/AndroidStudioProjects/AssignmentQ5/app/src/main/AndroidManifest.xml:8:5-80
+18-->/Users/anmolchaturvedi/AndroidStudioProjects/AssignmentQ5/app/src/main/AndroidManifest.xml:8:22-77
+19
+20    <permission
+20-->[androidx.core:core:1.13.0] /Users/anmolchaturvedi/.gradle/caches/8.10.2/transforms/cdf31520ed56cf2f4a2ad537fb548908/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
+21        android:name="com.example.assignmentq5.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+21-->[androidx.core:core:1.13.0] /Users/anmolchaturvedi/.gradle/caches/8.10.2/transforms/cdf31520ed56cf2f4a2ad537fb548908/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
+22        android:protectionLevel="signature" />
+22-->[androidx.core:core:1.13.0] /Users/anmolchaturvedi/.gradle/caches/8.10.2/transforms/cdf31520ed56cf2f4a2ad537fb548908/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
+23
+24    <uses-permission android:name="com.example.assignmentq5.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+24-->[androidx.core:core:1.13.0] /Users/anmolchaturvedi/.gradle/caches/8.10.2/transforms/cdf31520ed56cf2f4a2ad537fb548908/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
+24-->[androidx.core:core:1.13.0] /Users/anmolchaturvedi/.gradle/caches/8.10.2/transforms/cdf31520ed56cf2f4a2ad537fb548908/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
+25
+26    <application
+26-->/Users/anmolchaturvedi/AndroidStudioProjects/AssignmentQ5/app/src/main/AndroidManifest.xml:10:5-51:19
+27        android:allowBackup="true"
+27-->/Users/anmolchaturvedi/AndroidStudioProjects/AssignmentQ5/app/src/main/AndroidManifest.xml:11:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.13.0] /Users/anmolchaturvedi/.gradle/caches/8.10.2/transforms/cdf31520ed56cf2f4a2ad537fb548908/transformed/core-1.13.0/AndroidManifest.xml:28:18-86
+29        android:dataExtractionRules="@xml/data_extraction_rules"
+29-->/Users/anmolchaturvedi/AndroidStudioProjects/AssignmentQ5/app/src/main/AndroidManifest.xml:12:9-65
+30        android:debuggable="true"
+31        android:extractNativeLibs="false"
+32        android:fullBackupContent="@xml/backup_rules"
+32-->/Users/anmolchaturvedi/AndroidStudioProjects/AssignmentQ5/app/src/main/AndroidManifest.xml:13:9-54
+33        android:icon="@mipmap/ic_launcher"
+33-->/Users/anmolchaturvedi/AndroidStudioProjects/AssignmentQ5/app/src/main/AndroidManifest.xml:14:9-43
+34        android:label="@string/app_name"
+34-->/Users/anmolchaturvedi/AndroidStudioProjects/AssignmentQ5/app/src/main/AndroidManifest.xml:15:9-41
+35        android:roundIcon="@mipmap/ic_launcher_round"
+35-->/Users/anmolchaturvedi/AndroidStudioProjects/AssignmentQ5/app/src/main/AndroidManifest.xml:16:9-54
+36        android:supportsRtl="true"
+36-->/Users/anmolchaturvedi/AndroidStudioProjects/AssignmentQ5/app/src/main/AndroidManifest.xml:17:9-35
+37        android:testOnly="true"
+38        android:theme="@style/Theme.AssignmentQ5" >
+38-->/Users/anmolchaturvedi/AndroidStudioProjects/AssignmentQ5/app/src/main/AndroidManifest.xml:18:9-50
+39
+40        <!-- FileProvider for camera -->
+41        <provider
+42            android:name="androidx.core.content.FileProvider"
+42-->/Users/anmolchaturvedi/AndroidStudioProjects/AssignmentQ5/app/src/main/AndroidManifest.xml:23:13-62
+43            android:authorities="com.example.assignmentq5.fileprovider"
+43-->/Users/anmolchaturvedi/AndroidStudioProjects/AssignmentQ5/app/src/main/AndroidManifest.xml:24:13-64
+44            android:exported="false"
+44-->/Users/anmolchaturvedi/AndroidStudioProjects/AssignmentQ5/app/src/main/AndroidManifest.xml:25:13-37
+45            android:grantUriPermissions="true" >
+45-->/Users/anmolchaturvedi/AndroidStudioProjects/AssignmentQ5/app/src/main/AndroidManifest.xml:26:13-47
+46            <meta-data
+46-->/Users/anmolchaturvedi/AndroidStudioProjects/AssignmentQ5/app/src/main/AndroidManifest.xml:27:13-29:54
+47                android:name="android.support.FILE_PROVIDER_PATHS"
+47-->/Users/anmolchaturvedi/AndroidStudioProjects/AssignmentQ5/app/src/main/AndroidManifest.xml:28:17-67
+48                android:resource="@xml/file_paths" />
+48-->/Users/anmolchaturvedi/AndroidStudioProjects/AssignmentQ5/app/src/main/AndroidManifest.xml:29:17-51
+49        </provider>
+50
+51        <!-- Main launcher activity -->
+52        <activity
+52-->/Users/anmolchaturvedi/AndroidStudioProjects/AssignmentQ5/app/src/main/AndroidManifest.xml:33:9-40:20
+53            android:name="com.example.assignmentq5.MainActivity"
+53-->/Users/anmolchaturvedi/AndroidStudioProjects/AssignmentQ5/app/src/main/AndroidManifest.xml:34:13-41
+54            android:exported="true" >
+54-->/Users/anmolchaturvedi/AndroidStudioProjects/AssignmentQ5/app/src/main/AndroidManifest.xml:35:13-36
+55            <intent-filter>
+55-->/Users/anmolchaturvedi/AndroidStudioProjects/AssignmentQ5/app/src/main/AndroidManifest.xml:36:13-39:29
+56                <action android:name="android.intent.action.MAIN" />
+56-->/Users/anmolchaturvedi/AndroidStudioProjects/AssignmentQ5/app/src/main/AndroidManifest.xml:37:17-69
+56-->/Users/anmolchaturvedi/AndroidStudioProjects/AssignmentQ5/app/src/main/AndroidManifest.xml:37:25-66
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->/Users/anmolchaturvedi/AndroidStudioProjects/AssignmentQ5/app/src/main/AndroidManifest.xml:38:17-77
+58-->/Users/anmolchaturvedi/AndroidStudioProjects/AssignmentQ5/app/src/main/AndroidManifest.xml:38:27-74
+59            </intent-filter>
+60        </activity>
+61
+62        <!-- Image Details Activity -->
+63        <activity
+63-->/Users/anmolchaturvedi/AndroidStudioProjects/AssignmentQ5/app/src/main/AndroidManifest.xml:43:9-83
+64            android:name="com.example.assignmentq5.ImageDetailsActivity"
+64-->/Users/anmolchaturvedi/AndroidStudioProjects/AssignmentQ5/app/src/main/AndroidManifest.xml:43:19-55
+65            android:exported="false" />
+65-->/Users/anmolchaturvedi/AndroidStudioProjects/AssignmentQ5/app/src/main/AndroidManifest.xml:43:56-80
+66
+67        <!-- Gallery Activity -->
+68        <activity
+68-->/Users/anmolchaturvedi/AndroidStudioProjects/AssignmentQ5/app/src/main/AndroidManifest.xml:46:9-78
+69            android:name="com.example.assignmentq5.GalleryActivity"
+69-->/Users/anmolchaturvedi/AndroidStudioProjects/AssignmentQ5/app/src/main/AndroidManifest.xml:46:19-50
+70            android:exported="false" />
+70-->/Users/anmolchaturvedi/AndroidStudioProjects/AssignmentQ5/app/src/main/AndroidManifest.xml:46:51-75
+71
+72        <!-- Photo Selector Activity -->
+73        <activity
+73-->/Users/anmolchaturvedi/AndroidStudioProjects/AssignmentQ5/app/src/main/AndroidManifest.xml:49:9-84
+74            android:name="com.example.assignmentq5.PhotoSelectorActivity"
+74-->/Users/anmolchaturvedi/AndroidStudioProjects/AssignmentQ5/app/src/main/AndroidManifest.xml:49:19-56
+75            android:exported="false" />
+75-->/Users/anmolchaturvedi/AndroidStudioProjects/AssignmentQ5/app/src/main/AndroidManifest.xml:49:57-81
+76
+77        <provider
+77-->[androidx.emoji2:emoji2:1.3.0] /Users/anmolchaturvedi/.gradle/caches/8.10.2/transforms/6117675ccd9a8a1f63190fc9fcb8484b/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+78            android:name="androidx.startup.InitializationProvider"
+78-->[androidx.emoji2:emoji2:1.3.0] /Users/anmolchaturvedi/.gradle/caches/8.10.2/transforms/6117675ccd9a8a1f63190fc9fcb8484b/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+79            android:authorities="com.example.assignmentq5.androidx-startup"
+79-->[androidx.emoji2:emoji2:1.3.0] /Users/anmolchaturvedi/.gradle/caches/8.10.2/transforms/6117675ccd9a8a1f63190fc9fcb8484b/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+80            android:exported="false" >
+80-->[androidx.emoji2:emoji2:1.3.0] /Users/anmolchaturvedi/.gradle/caches/8.10.2/transforms/6117675ccd9a8a1f63190fc9fcb8484b/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+81            <meta-data
+81-->[androidx.emoji2:emoji2:1.3.0] /Users/anmolchaturvedi/.gradle/caches/8.10.2/transforms/6117675ccd9a8a1f63190fc9fcb8484b/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+82                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+82-->[androidx.emoji2:emoji2:1.3.0] /Users/anmolchaturvedi/.gradle/caches/8.10.2/transforms/6117675ccd9a8a1f63190fc9fcb8484b/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+83                android:value="androidx.startup" />
+83-->[androidx.emoji2:emoji2:1.3.0] /Users/anmolchaturvedi/.gradle/caches/8.10.2/transforms/6117675ccd9a8a1f63190fc9fcb8484b/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+84            <meta-data
+84-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/anmolchaturvedi/.gradle/caches/8.10.2/transforms/ff1b7a1dc9d9fc17b7cd0e98cb755090/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+85                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+85-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/anmolchaturvedi/.gradle/caches/8.10.2/transforms/ff1b7a1dc9d9fc17b7cd0e98cb755090/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+86                android:value="androidx.startup" />
+86-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/anmolchaturvedi/.gradle/caches/8.10.2/transforms/ff1b7a1dc9d9fc17b7cd0e98cb755090/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+87            <meta-data
+87-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/anmolchaturvedi/.gradle/caches/8.10.2/transforms/24d256b0eda3004909f30047ac18a58c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+88                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+88-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/anmolchaturvedi/.gradle/caches/8.10.2/transforms/24d256b0eda3004909f30047ac18a58c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+89                android:value="androidx.startup" />
+89-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/anmolchaturvedi/.gradle/caches/8.10.2/transforms/24d256b0eda3004909f30047ac18a58c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+90        </provider>
+91
+92        <receiver
+92-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/anmolchaturvedi/.gradle/caches/8.10.2/transforms/24d256b0eda3004909f30047ac18a58c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+93            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+93-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/anmolchaturvedi/.gradle/caches/8.10.2/transforms/24d256b0eda3004909f30047ac18a58c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+94            android:directBootAware="false"
+94-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/anmolchaturvedi/.gradle/caches/8.10.2/transforms/24d256b0eda3004909f30047ac18a58c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+95            android:enabled="true"
+95-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/anmolchaturvedi/.gradle/caches/8.10.2/transforms/24d256b0eda3004909f30047ac18a58c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+96            android:exported="true"
+96-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/anmolchaturvedi/.gradle/caches/8.10.2/transforms/24d256b0eda3004909f30047ac18a58c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+97            android:permission="android.permission.DUMP" >
+97-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/anmolchaturvedi/.gradle/caches/8.10.2/transforms/24d256b0eda3004909f30047ac18a58c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+98            <intent-filter>
+98-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/anmolchaturvedi/.gradle/caches/8.10.2/transforms/24d256b0eda3004909f30047ac18a58c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+99                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+99-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/anmolchaturvedi/.gradle/caches/8.10.2/transforms/24d256b0eda3004909f30047ac18a58c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+99-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/anmolchaturvedi/.gradle/caches/8.10.2/transforms/24d256b0eda3004909f30047ac18a58c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+100            </intent-filter>
+101            <intent-filter>
+101-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/anmolchaturvedi/.gradle/caches/8.10.2/transforms/24d256b0eda3004909f30047ac18a58c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+102                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+102-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/anmolchaturvedi/.gradle/caches/8.10.2/transforms/24d256b0eda3004909f30047ac18a58c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+102-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/anmolchaturvedi/.gradle/caches/8.10.2/transforms/24d256b0eda3004909f30047ac18a58c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+103            </intent-filter>
+104            <intent-filter>
+104-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/anmolchaturvedi/.gradle/caches/8.10.2/transforms/24d256b0eda3004909f30047ac18a58c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+105                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+105-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/anmolchaturvedi/.gradle/caches/8.10.2/transforms/24d256b0eda3004909f30047ac18a58c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+105-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/anmolchaturvedi/.gradle/caches/8.10.2/transforms/24d256b0eda3004909f30047ac18a58c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+106            </intent-filter>
+107            <intent-filter>
+107-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/anmolchaturvedi/.gradle/caches/8.10.2/transforms/24d256b0eda3004909f30047ac18a58c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+108                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+108-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/anmolchaturvedi/.gradle/caches/8.10.2/transforms/24d256b0eda3004909f30047ac18a58c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+108-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/anmolchaturvedi/.gradle/caches/8.10.2/transforms/24d256b0eda3004909f30047ac18a58c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
+109            </intent-filter>
+110        </receiver>
+111    </application>
+112
+113</manifest>
